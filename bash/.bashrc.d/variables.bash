@@ -4,7 +4,7 @@ source $HOME/.bin/npm-completion.sh
 export ALTERNATE_EDITOR=""
 export BROWSER="firefox"
 export EDITOR="$HOME/.bin/em"
-export EMAIL="hello@harryrschwartz.com"
+export EMAIL="dschroetter@gmail.com/"
 export GOPATH="$HOME/code/go"
 export GPG_TTY=$(tty)
 export HISTFILESIZE=20000
@@ -16,9 +16,6 @@ export NAME="Harry R. Schwartz"
 export PROMPT_DIRTRIM=3
 
 source /etc/bash_completion.d/password-store
-
-source "/usr/local/share/chruby/chruby.sh"
-chruby 2.5.1
 
 ### local config settings, if any
 

@@ -1,8 +1,11 @@
-### hrs's dotfiles
+### Dirk's dotfiles
 
 I hope you like fiddling with your `.emacs.d` ad nauseam, 'cause I obviously do.
 
+This repository is adapted from hrs's excellent initial work
+
 #### Installation
+
 
 Clone this thing wherever you like (I use `~/.dotfiles`), install [GNU
 `stow`][], and run the `install.sh` script. That'll set up a bunch of symlinks

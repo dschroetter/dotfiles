@@ -18,8 +18,6 @@
 (depends-on "elpy")
 (depends-on "engine-mode")
 (depends-on "epl")
-(depends-on "evil")
-(depends-on "evil-mu4e")
 (depends-on "evil-surround")
 (depends-on "f")
 (depends-on "fill-column-indicator")
