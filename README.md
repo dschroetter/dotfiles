@@ -1,4 +1,4 @@
-### hrs's dotfiles
+### Dirk's dotfiles
 
 I hope you like fiddling with your `.emacs.d` ad nauseam, 'cause I obviously do.
 
