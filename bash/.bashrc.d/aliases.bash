@@ -1,7 +1,6 @@
 # -*- mode: sh -*-
 
 alias gg="git grep -n"
-alias git="hub"
 alias gpg="gpg2"
 alias less="less -R" # display colors correctly
 alias sbcl="rlwrap sbcl"
