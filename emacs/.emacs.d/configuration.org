@@ -1467,13 +1467,6 @@ Use flycheck in the appropriate buffers:
 
 * =dired=
 
-Load up the assorted =dired= extensions.
-
-#+BEGIN_SRC emacs-lisp
-  ;(use-package dired-details)
-  ;(use-package dired+)
-#+END_SRC
-
 Open media with the appropriate programs.
 
 #+BEGIN_SRC emacs-lisp
@@ -1491,11 +1484,10 @@ files. We're using:
 
 - =l=: Use the long listing format.
 - =h=: Use human-readable sizes.
-- =v=: Sort numbers naturally.
 - =A=: Almost all. Doesn't include "=.=" or "=..=".
 
 #+BEGIN_SRC emacs-lisp
-  (setq-default dired-listing-switches "-lhvA")
+  (setq-default dired-listing-switches "-lhA")
 #+END_SRC
 
 Use "j" and "k" to move around in =dired=.
@@ -1808,4 +1800,10 @@ Remap when working in terminal Emacs.
 
 #+BEGIN_SRC emacs-lisp
   (define-key input-decode-map "\e[1;2A" [S-up])
+#+END_SRC
+
+Backspace handling
+
+#+BEGIN_SRC emacs-lisp
+  (global-set-key [(control ?h)] `delete-backward-char)
 #+END_SRC
